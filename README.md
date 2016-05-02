@@ -17,7 +17,7 @@ Open the folder in Visual Studio Code and build with Ctrl+Shift+B.
 [http://steamcommunity.com/sharedfiles/filedetails/?id=631428133](http://steamcommunity.com/sharedfiles/filedetails/?id=631428133)
 
 ## Screenshots
-![Waywarrrd! (Pirate Language)](http://images.akamai.steamusercontent.com/ugc/499142450983691635/3D1591612CB512A8DA74DCB518E3A26BC86643DD/ "Waywarrrd! (Pirate Language)")
+![Waywarrrd! (Pirate Language)](https://raw.githubusercontent.com/WaywardGame/piratelanguage/master/mod.png "Waywarrrd! (Pirate Language)")
 
 ![Screenshot #1](http://images.akamai.steamusercontent.com/ugc/499142450981214176/E909D6C47481EAFFFA4CBD957093861526812BEB/ "Screenshot #1")
 
