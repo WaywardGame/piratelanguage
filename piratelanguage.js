@@ -244,17 +244,17 @@ define(["require", "exports"], function (require, exports) {
             pirateLanguage.message(Message.MustCastIntoWater, "Ye must cast this into water t' catch anythin'.");
             pirateLanguage.message(Message.NearlyBurnedEquipmentProtectedYou, "Ye were nearly burned, but yer equipment protected ye.");
             pirateLanguage.message(Message.NeedAShovelToDigTreasure, "Ye need a shovel t' be able t' dig up this booty.");
-            pirateLanguage.message(Message.NeedDeepWaterForRaft, "Ye need t' be in deep water t' use a raft.");
+            pirateLanguage.message(Message.NeedWaterForRaft, "Ye need t' be in water t' use a raft.");
             pirateLanguage.message(Message.NeedFishingNetForTreasure, "Ye need a fishin' net t' be able t' get this booty.");
             pirateLanguage.message(Message.NeedToEquipToShoot, "Ye need t' equip this t' shoot from it!");
             pirateLanguage.message(Message.NeedToStartTravelsOutside, "Ye need t' start yer travels outside.");
             pirateLanguage.message(Message.NoAmmunitionForThatWeapon, "Ye do not have some godforsaken ammunition fer that weapon in yer duffle!");
-            pirateLanguage.message(Message.NoBlackPowderToFireWeapon, "Ye do not have some godforsaken Black Powder t' fire this weapon.");
+            pirateLanguage.message(Message.NoBlackPowderToFireWeapon, "Ye do not have some godforsaken black powder t' fire this weapon.");
             pirateLanguage.message(Message.NoFireToStokeWith, "Thar be no fire t' stoke with _0_ here!");
             pirateLanguage.message(Message.NoFishAtLocation, "Thar be no fish at this location!");
             pirateLanguage.message(Message.NoFuelItemsToStartFire, "Ye do not have some godforsaken fuel t' start th' fire.");
             pirateLanguage.message(Message.NoInkToDrawMap, "Ye do not have some godforsaken ink t' draw a map with!");
-            pirateLanguage.message(Message.NoKindlingToStartFire, "Ye do not have some godforsaken Kindling t' start th' fire.");
+            pirateLanguage.message(Message.NoKindlingToStartFire, "Ye do not have some godforsaken kindling t' start th' fire.");
             pirateLanguage.message(Message.NoLongerFeelPainOBeingfBurned, "Ye no longer feel th' pain o' being burned!");
             pirateLanguage.message(Message.NoMoreRoomInContainer, "Thar be no more room in this container fer that item.");
             pirateLanguage.message(Message.NoNeedToStokeFire, "Thar be no need t' stoke this fire.");
@@ -273,7 +273,7 @@ define(["require", "exports"], function (require, exports) {
             pirateLanguage.message(Message.NothingHereToCarve, "Thar be nothin' here t' carve!");
             pirateLanguage.message(Message.NothingHereToFill, "Thar be nothin' here t' fill _0_.");
             pirateLanguage.message(Message.NothingHereToGardenWith, "Thar be nothin' here t' garden with _0_ here!");
-            pirateLanguage.message(Message.NoTinderToStartFire, "Ye do not have some godforsaken Tinder t' start th' fire.");
+            pirateLanguage.message(Message.NoTinderToStartFire, "Ye do not have some godforsaken tinder t' start th' fire.");
             pirateLanguage.message(Message.NotInRangeOfTreasure, "Ye be not in th' range o' some godforsaken buried booty!");
             pirateLanguage.message(Message.NoWaterInStill, "Thar be no water in this still.");
             pirateLanguage.message(Message.NoWhereNearTreasure, "Ye be no whar near th' booty.");
@@ -304,7 +304,7 @@ define(["require", "exports"], function (require, exports) {
             pirateLanguage.message(Message.RefreshingMods, "Refreshin' Mods");
             pirateLanguage.message(Message.Reinforce, "Ye reinforce _0_.");
             pirateLanguage.message(Message.RemovedBlood, "Ye removed th' blood.");
-            pirateLanguage.message(Message.RequiredForDisassembleLabel, "Required Fer Disassembly: ");
+            pirateLanguage.message(Message.RequiredForDisassembleLabel, "Required fer Disassembly: ");
             pirateLanguage.message(Message.RequiredForDisassembly, "_0_ be required fer disassembly o' this item!");
             pirateLanguage.message(Message.RequiredModsMissingWantToContinue, "One or more required mods be missin'. Unexpected results may occur. Be ye sure ye want t' continue?");
             pirateLanguage.message(Message.RequiredModsNotLoaded, "One or more required mods be not loaded.");
@@ -393,7 +393,7 @@ define(["require", "exports"], function (require, exports) {
             pirateLanguage.message(Message.WaitUntilFireCooledToGetWater, "Ye must wait until th' fire has cooled off t' get th' purified water.");
             pirateLanguage.message(Message.WalkingDistanceOfTreasure, "Ye be within walkin' distance o' th' booty.");
             pirateLanguage.message(Message.WantToDeleteAllSavedData, "Be ye sure ye want t' permanently delete all saved data?");
-            pirateLanguage.message(Message.WantToDeleteThisGame, " ye want t' delete this game?");
+            pirateLanguage.message(Message.WantToDeleteThisGame, "Be ye sure ye want t' delete this game?");
             pirateLanguage.message(Message.WantToPublishThisMod, "Be ye sure ye want t' publish this mod?");
             pirateLanguage.message(Message.WantToPublishUpdateToMod, "Be ye sure ye want t' publish an update t' this mod?");
             pirateLanguage.message(Message.WantToUninstallThisMod, "Be ye sure ye want t' uninstall this mod?");
@@ -401,7 +401,7 @@ define(["require", "exports"], function (require, exports) {
             pirateLanguage.message(Message.WaterIncreaseFertilityOfPlant, "Ye used th' water t' increase th' fertility o' th' plant.");
             pirateLanguage.message(Message.WaterPutOutFire, "Th' water has put out th' fire.");
             pirateLanguage.message(Message.WaterWouldHaveNoEffect, "Th' water would have no effect on this plant.");
-            pirateLanguage.message(Message.WelcomeToWayward22, `Welcome t' Wayward beta 2.2!<br /><br />Please visit th' <a href="https://steamcommunity.com/app/379210/allnews/" target="_blank">Steam Community News</a> section t' see what's new.<br /><br /><span class="normal-size">All mods have been disabled by default.</span>`);
+            pirateLanguage.message(Message.WelcomeToWayward, `Welcome t' Wayward beta ${gameVersion}!<br /><br />Please visit th' <a href="https://steamcommunity.com/app/379210/allnews/" target="_blank">Steam Community News</a> section t' see what's new.<br /><br /><span class="normal-size">All mods have been disabled by default.</span>`);
             pirateLanguage.message(Message.WhatWouldYouLikeToNameItem, "What would ye like t' name this item?");
             pirateLanguage.message(Message.WinFindWayBackToCivilization, "Ye find yer way back t' civilization and end yer journey.");
             pirateLanguage.message(Message.WinSailBackWithRiches, "Ye sail back and enjoyed a good life with yer swag.");
@@ -461,7 +461,7 @@ define(["require", "exports"], function (require, exports) {
             pirateLanguage.item(ItemType.Arrow, "an ", "arrow", "A projectile t' be fired from a bow, crafted with an arrowhead and feather t' control flight.");
             pirateLanguage.item(ItemType.Backpack, "a ", "backpack", "Crafted with leather, it's suitable fer holdin' many items on yer back, reducin' overall weight.");
             pirateLanguage.item(ItemType.Bandage, "a ", "bandage", "A tattered piece o' fabric, used t' staunch wounds and prevent infection.");
-            pirateLanguage.item(ItemType.BarkShield, "a ", "bark shield", "A Makeshift shield, used t' block incomin' attacks, made with tree bark and wrapped with string.");
+            pirateLanguage.item(ItemType.BarkShield, "a ", "bark shield", "A makeshift shield, used t' block incomin' attacks, made with tree bark and wrapped with string.");
             pirateLanguage.item(ItemType.BarkTorch, "a ", "bark torch", "A torch wrapped and bound by stripped tree bark, providin' natural oils t' increase th' life o' th' torch.");
             pirateLanguage.item(ItemType.BigRedBerry, "a ", "big red berry", "An abnormally large, plump red berry, full o' luscious nutrition.");
             pirateLanguage.item(ItemType.BlackPowder, "", "black powder", "A highly combustible powder, made up o' a combination o' minerals.");
@@ -586,7 +586,7 @@ define(["require", "exports"], function (require, exports) {
             pirateLanguage.item(ItemType.LockPick, "a ", "lock pick", "An improvised needle and prong that should be strong enough t' pick a lock or two.");
             pirateLanguage.item(ItemType.Log, "a ", "log", "A sturdy piece o' wood, useful fer construction or as a fuel fer a fire.");
             pirateLanguage.item(ItemType.LongBow, "a ", "long bow", "Nearly as tall as th' average person, this bow be designed fer maximum range.");
-            pirateLanguage.item(ItemType.MageCloak, "a ", "mage cloak", "An ancient tattered cloak, once owned by a spell castin' foe.");
+            pirateLanguage.item(ItemType.MageRobe, "a ", "mage robe", "An ancient tattered robe, once owned by a spell castin' foe.");
             pirateLanguage.item(ItemType.MagicalEssence, "", "magical essence", "An odd transparent powder with organic and ethereal materials. This magical matter may be used on items t' affix magical properties on t' them.");
             pirateLanguage.item(ItemType.MeltedAmber, "", "melted amber", "Warmed amber resin; used t' create a hardened bind when cooled on t' an object.");
             pirateLanguage.item(ItemType.MortarAndPestle, "a ", "mortar and pestle", "Used fer grindin' and crushing, made from smooth stones.");
@@ -692,7 +692,7 @@ define(["require", "exports"], function (require, exports) {
             pirateLanguage.item(ItemType.Tentacles, "", "tentacles", "A slimy, wrigglin' appendage from an unlucky cephalopod. Can be eaten, but with some force due t' th' rubbery unpleasant texture.");
             pirateLanguage.item(ItemType.Thistles, "", "thistles", "Th' flowerin' bulb o' a thistle plant. Filled with a bitter but nutritious milk.");
             pirateLanguage.item(ItemType.ThistleSeeds, "", "thistle seeds", "Small hard seeds, used fer growin' thistle plants.");
-            pirateLanguage.item(ItemType.Tinder, "", "tinder", "A dry bunch o' wooden shavings, used t' ignite kindling when startin' a fire.");
+            pirateLanguage.item(ItemType.WoodenShavings, "", "wooden shavings", "A dry bunch o' wooden shavings, used t' ignite kindling when startin' a fire.");
             pirateLanguage.item(ItemType.Tourniquet, "a ", "tourniquet", "A hard stud twisted together with a string. Used t' twist aroun' a bleedin' wound t' stem th' flow o' blood.");
             pirateLanguage.item(ItemType.TreeBark, "", "tree bark", "A tough, dense chunk o' bark, broken off from a tree.");
             pirateLanguage.item(ItemType.TreeFungus, "", "tree fungus", "A semi-hard chunk o' fungus, grown from a tree and possibly edible.");
@@ -890,7 +890,7 @@ define(["require", "exports"], function (require, exports) {
             pirateLanguage.creature(CreatureType.Rabbit, "a ", "rabbit", "A fast moving, peaceful herbivorous mammal. Useful fer a good meal or as a pet.");
             pirateLanguage.creature(CreatureType.Rat, "a ", "rat", "A small and scurryin' rodent. Afraid o' predators, it will try t' escape yer grasp.");
             pirateLanguage.creature(CreatureType.Shark, "a ", "shark", "A large blood-thirsty cartilaginous sea creature. Its fin juts from th' waters, tauntin' ye.");
-            pirateLanguage.creature(CreatureType.SkeletalMage, "a ", "skeletal mage", "A cloaked, magic-castin' skeletal humanoid. Its spell castin' produces walls and teleportation.");
+            pirateLanguage.creature(CreatureType.SkeletalMage, "a ", "skeletal mage", "A robed, magic-castin' skeletal humanoid. Its spell castin' produces walls and teleportation.");
             pirateLanguage.creature(CreatureType.Skeleton, "a ", "skeleton", "An animated pile o' human, or human-like bones.");
             pirateLanguage.creature(CreatureType.Slime, "a ", "slime", "A bouncin' globule o' animated gelatin. It isn't aware o' yer stirrin'.");
             pirateLanguage.creature(CreatureType.Snake, "a ", "snake", "A slithering, poisonous reptile. Appears ambivalent t' yer encroachment.");
@@ -961,8 +961,9 @@ define(["require", "exports"], function (require, exports) {
             pirateLanguage.hint(HintType.DailyChallengeMode, "Daily Challenge Mode", "Daily challenge mode be an extra difficult game mode with some unique game rules t' add an extra challenge fer skilled players. Ye can expect more creatures, a harder beginnin' o' th' game, and more. Ye cannot save yer game in this mode. Th' world and randomization be unique per day, allowin' multiple players t' play in th' same set o' circumstances.");
             pirateLanguage.hint(HintType.MovingItems, "Movin' Items", "Thar be many ways t' organize and move items in Wayward<br /><br />1. Draggin' and dropping: Ye can drag and drop items into a container window, quickslot, equipment slot, or directly on t' th' ground, by draggin' it t' th' desired location. Draggin' and droppin' t' th' game screen will drop it in front o' ye, or inside a chest if ye be facin' one. Holdin' Shift while draggin' will drag/drop all items o' th' same type<br />2. From th' item's menu. Left clickin' an item will display th' item's menu with options t' \"Drop/Drop All\", or if ye have a container window open, will present ye th' option t' \"Move/Move All\". If ye click an item that has a special quality, additional options will be visible t' Drop/Move all o' th' same quality.<br />3. Right clicking/droppin'. Ye can right click any item in yer duffle t' drop it in front o' ye. This will automatically drop it into a chest if ye be facin' one. Holdin' shift while ye right click will drop all o' th' same type.<br /><br />Note: Ye can change th' default drop direction from th' facin' tile t' underneath yer character in th' game's option menu.");
             pirateLanguage.hint(HintType.CraftingFailure, "Craftin' Failure", "All crafts in Wayward have a skill level assosiated with them. Hoverin' over each craft will reveal th' item's craft skill level. These levels goin' from easiest t' harder are: simple, intermediate, advanced, and expert.<br /><br />Tryin' t' craft an item with a higher skill level than yer own craftin' skill can sometimes result in failure. Yer chance t' successfully craft th' item raises as yer skills increase. If th' item's skill level appears in orange, ye will have a low chance at success fer craftin' that item. Each unsucessful attempt at craftin' will reduce th' durability o' each item involved in th' craft.");
-            pirateLanguage.hint(HintType.Malignity, "Malignity", "These lands be mysterious and seem t' react t' yer presence and actions. Craftin' items, killin' creatures, usin' items, and usin' skills will all effect yer malignity positively or negatively. Th' higher yer malignity, th' more challengin' survival becomes. Havin' a low or even negative malignity assumes ye be peaceful, and these lands will act in kindness towards ye by not allowin' more difficult creatures t' spawn. Certain peaceful actions may reduce yer level o' malign such as gardenin' or plantin' mushrooms and plants. Travellin' away t' other lands usin' boats can significantly reduce yer malignity.");
+            english.hint(HintType.Malignity, "Malignity", "These lands be mysterious and seem t' react t' yer presence and actions. Craftin' and usin' items, killin' creatures, and performin' skills will all effect yer malignity positively or negatively. Th' higher yer malignity, th' more challengin' survival becomes. Havin' a low or even negative malignity assumes ye be peaceful, and these lands will act in kindness towards ye by not allowin' more difficult creatures t' spawn. Certain peaceful actions may reduce yer level of malign such as gardenin' or plantin' mushrooms and plants. Travellin' away t' other lands usin' boats can significantly reduce yer malignity.<br /><br />Caves will always feature th' same creatures, regardless of malignity and during th' night, if yer malignity is above 0, some very dangerous creatures can spawn.");
             pirateLanguage.hint(HintType.Interface, "Interface", "Th' windowed interface in Wayward be completely customizable. Ye can move them aroun' as ye see fit, and resize them t' expand th' information that be viewable. Move them aroun' by draggin' th' title bar o' each window. Resize them by draggin' th' corner o' th' window.<br /><br />If ye be still havin' issues findin' certain items within th' duffle or craftin' windows, try usin' th' filter or sortin' features.");
+            pirateLanguage.hint(HintType.CreatureTaming, "Creature Tamin'", `Violence be sometimes not th' best option! Besides runnin' away from a confrontation with th' hostile island creatures, another option be t' attempt t' tame them. T' attempt creature tamin', simply face th' creature and select "Tame" from yer action menu (opened with {ui.getStringForKeyBind(KeyBind.Actions)}). Sometimes attemptin' t' calm th' creature directly will not be enough. Ye can also attempt t' offer an item t' creature. Simply face th' creature, open a item's menu and select "Offer". If th' creature likes or wants th' item, it will become tamed.`);
             Languages.add(pirateLanguage);
         }
         onLoad(saveData) {
