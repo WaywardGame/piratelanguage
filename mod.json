@@ -1,12 +1,14 @@
 {
 	"name": "Waywarrrd! (Pirate Language)",
 	"description": "A piratey language translation. Yaarrrgh!",
-	"version": "1.2.1",
+	"version": "1.3.0",
 	"author": "Vaughn Royko",
-    "unloadable": true,
-	"compatible_minor_versions": [
-		2
+	"unloadable": true,
+	"compatibleMinorVersions": [
+		3
 	],
-	"file": "piratelanguage.js",
+	"languages": [
+		"pirateLanguage"
+	],
 	"publishedFileId": "631428133"
 }
