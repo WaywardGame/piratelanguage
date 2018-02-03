@@ -80,9 +80,8 @@ cd piratelanguage
 ## Screenshots
 ![Waywarrrd! (Pirate Language)](https://raw.githubusercontent.com/WaywardGame/piratelanguage/master/mod.png "Waywarrrd! (Pirate Language)")
 
-![Screenshot #1](http://images.akamai.steamusercontent.com/ugc/499142450981214176/E909D6C47481EAFFFA4CBD957093861526812BEB/ "Screenshot #1")
+![Screenshot #1](https://steamuserimages-a.akamaihd.net/ugc/939433370341323325/F2FE99BECD28C11DCFCFA3C502F8A5F0418E5B09/ "Screenshot #1")
 
-![Screenshot #2](http://images.akamai.steamusercontent.com/ugc/499142450981180009/5A433F5E3465F5C1B9F37846A1C4EB9B1508D156/ "Screenshot #2")
+![Screenshot #2](https://steamuserimages-a.akamaihd.net/ugc/939433370341323504/84626E611E353CAE13C046CD7038D8B1004CB41C/ "Screenshot #2")
 
-![Screenshot #3](http://images.akamai.steamusercontent.com/ugc/499142450981180400/CAE6F145D32E71F5CBA5F4627DE35776ABD0A9F1/ "Screenshot #3")
-
+![Screenshot #3](https://steamuserimages-a.akamaihd.net/ugc/939433370341323774/E7F8E14BF2C4A983E5CA4D94FBB605A2CE84F3A4/ "Screenshot #3")
