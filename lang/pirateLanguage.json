@@ -1,5 +1,6 @@
 {
 	"name": "Waywarrrd! (Pirate Language)",
+	"shouldPluralize": true,
 	"dictionaries": {
 		"action": {
 			"pickup": ["Loot", ""],
@@ -1454,6 +1455,5 @@
 			"queryInspection": ["Choose an object t' inspect by clickin' on its tile."],
 			"queryObjectNotFound": ["Th' selected tile contains no object that can be inspected."]
 		}
-	},
-	"shouldPluralize": true
+	}
 }

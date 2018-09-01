@@ -3,12 +3,11 @@
 	"description": "A piratey language translation. Yaarrrgh!",
 	"version": "1.6.0",
 	"author": "Vaughn Royko",
-	"unloadable": true,
 	"compatibleMinorVersions": [
 		6
 	],
 	"languages": [
-		"pirateLanguage"
+		"lang/pirateLanguage"
 	],
 	"publishedFileId": "631428133"
 }
