@@ -34,7 +34,7 @@ ye
 
  you
  ye
-* Not youth.
+* Not youth/you're/you've
 
 To 
 T' 
@@ -56,7 +56,7 @@ Th'
 
 [(?<=in)]g(?!":|[a-z0-9]|})
 n'
-* Don't replace heading in notes.
+* Don't replace variables in notes. Not "dig". Don't match case.
 
 Treasure"(?!:)
 Booty"
@@ -126,8 +126,8 @@ come across
 Inventory"(?!:)
 Duffle"
 
-"Inventory 
-"Duffle 
+"Inventory\n
+"Duffle\n
 
  inventory
  duffle
@@ -183,7 +183,6 @@ cackle fruit
 
 egg"(?!:)
 cackle fruit"
-* Make sure to change prefix.
 
  egg
  cackle fruit
