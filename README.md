@@ -34,7 +34,7 @@ ye
 
  you
  ye
-* Not youth/you're/you've
+* Not youth/you're/you've/young
 
 To 
 T' 
@@ -54,9 +54,10 @@ Th'
 "Quitting
 "Abortin'
 
-[(?<=in)]g(?!":|[a-z0-9]|})
+[(?<=in)]g(?!":|[a-z0-9]|\})
+[(?<=in)]g(?!":|[a-z0-9]|\}|\))
 n'
-* Don't replace variables in notes. Not "dig". Don't match case.
+* Don't match case. Replace {headin' back to {heading and other variables in notes.
 
 Treasure"(?!:)
 Booty"
@@ -121,7 +122,7 @@ come across
 
  any 
  some godforsaken 
-* Not always, sometimes doesn't make sense.
+* Not always, sometimes doesn't make sense (like any of).
 
 Inventory"(?!:)
 Duffle"
@@ -236,6 +237,7 @@ Belay
 
  depths
  briny depths
+* Make sure to replace all
 
 Quit 
 Abort 
@@ -249,8 +251,12 @@ holystone"
  sandstone
  holystone
 
-?
-, savvy?
+?"
+, savvy?"
+* Not always.
+
+? 
+, savvy? 
 * Not always.
 ```
 
