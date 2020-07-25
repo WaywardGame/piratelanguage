@@ -2,7 +2,7 @@
 A piratey language translation. Yaarrrgh! Uses the language translation .json format.
 
 ## Workflow
-The following style/replacement guide is used when making replacements to the standard "English" language file. Spaces and case are important; make sure to copy and paste the full line.
+The following style/replacement guide is used when making replacements to the standard "English" language file. Spaces and case are important; make sure to copy and paste the full line with case matching (unless otherwise noted).
 
 ```
  Yourself
@@ -54,6 +54,12 @@ Th'
 "Quitting
 "Abortin'
 
+"Quit"
+"Abort"
+
+quit 
+abort 
+
 [(?<=in)]g(?!":|[a-z0-9]|\})
 [(?<=in)]g(?!":|[a-z0-9]|\}|\))
 n'
@@ -88,6 +94,9 @@ Be
 
  is 
  be 
+ 
+ is.
+ be.
 
 There 
 Thar 
@@ -122,7 +131,7 @@ come across
 
  any 
  some godforsaken 
-* Not always, sometimes doesn't make sense (like any of).
+* Not always, sometimes doesn't make sense (like any o').
 
 Inventory"(?!:)
 Duffle"
@@ -197,7 +206,7 @@ cackle"
 
  ghost
  dredgie
-* Not always.
+* Not "ghostly".
 
 picked up
 looted
@@ -276,6 +285,8 @@ for (var i = 0; i < equalRows.length; i++) {
 	}
 }
 ```
+
+*Be careful around the formatting of "statusEffect".
 
 ## Cloning:
 ```
