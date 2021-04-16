@@ -1,8 +1,9 @@
 {
 	"name": "Waywarrrd! (Pirate Language)",
 	"description": "A piratey language translation. Yaarrrgh!",
-	"version": "1.9.0",
+	"version": "1.10.0",
 	"author": "Vaughn Royko",
+	"github": "https://github.com/WaywardGame/piratelanguage",
 	"languages": [
 		"lang/pirateLanguage"
 	],

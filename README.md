@@ -32,9 +32,32 @@ Ye
 you 
 ye 
 
- you
- ye
-* Not youth/you're/you've/young
+you, 
+ye, 
+
+you.
+ye.
+
+hello there
+ahoy
+
+Hello there
+Ahoy
+
+Aberrant 
+Bilge-sucking 
+
+an aberrant 
+a bilge-sucking 
+
+aberrant 
+bilge-sucking 
+
+ aberrant
+ bilge-sucking
+
+ Aberrant
+ Bilge-sucking
 
 To 
 T' 
@@ -51,6 +74,9 @@ Th'
  of 
  o' 
 
+of 
+o' 
+
 "Quitting
 "Abortin'
 
@@ -60,10 +86,19 @@ Th'
 quit 
 abort 
 
-[(?<=in)]g(?!":|[a-z0-9]|\})
+Quit 
+Abort 
+
+ Quit
+ Abort
+
 [(?<=in)]g(?!":|[a-z0-9]|\}|\))
 n'
-* Don't match case. Replace {headin' back to {heading and other variables in notes.
+* Don't match case.
+
+[(?<=in)]g(?!":|[a-z0-9]|\})
+n'
+* Don't match case. Don't replace variables.
 
 Treasure"(?!:)
 Booty"
@@ -94,7 +129,7 @@ Be
 
  is 
  be 
- 
+
  is.
  be.
 
@@ -116,11 +151,17 @@ Fer
  for 
  fer 
 
-for.
-fer.
+ for.
+ fer.
+
+ for!
+ fer!
 
  my 
  me 
+
+My 
+Me 
 
 Find 
 Come across 
@@ -148,8 +189,14 @@ Duffle"
  never
  ne'er
 
+ Never 
+ Ne'er 
+
  around
  aroun'
+
+around 
+aroun' 
 
 Left 
 Port 
@@ -191,18 +238,23 @@ eggs
 cackle fruit
 * Not spider eggs.
 
-egg"(?!:)
+chicken egg"(?!:)
 cackle fruit"
 
- egg
+ chicken egg
  cackle fruit
-* Not spider eggs.
+
+ chicken's egg
+ cackle's fruit
 
 chicken"(?!:)
 cackle"
 
  chicken
  cackle
+
+ ghosts
+ dredgies
 
  ghost
  dredgie
@@ -248,9 +300,6 @@ Belay
  briny depths
 * Make sure to replace all
 
-Quit 
-Abort 
-
 sandstone 
 holystone 
 
@@ -262,11 +311,7 @@ holystone"
 
 ?"
 , savvy?"
-* Not always.
-
-? 
-, savvy? 
-* Not always.
+* Not always. Usually starting with Would/Do/Be.
 ```
 
 Use textdiff to get unchanged lines to remove from the final .json file. [Diff Checker](https://www.diffchecker.com/) can be used. Use the following JavaScript to get the unchanged lines:
