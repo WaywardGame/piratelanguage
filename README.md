@@ -340,7 +340,7 @@ cd piratelanguage
 ```
 
 ## Steam Workshop
-[http://steamcommunity.com/sharedfiles/filedetails/?id=631428133](http://steamcommunity.com/sharedfiles/filedetails/?id=631428133)
+[https://steamcommunity.com/sharedfiles/filedetails/?id=631428133](https://steamcommunity.com/sharedfiles/filedetails/?id=631428133)
 
 ## Screenshots
 ![Waywarrrd! (Pirate Language)](https://raw.githubusercontent.com/WaywardGame/piratelanguage/master/mod.png "Waywarrrd! (Pirate Language)")
