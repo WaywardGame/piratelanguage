@@ -71,6 +71,12 @@ Th'
  the 
  th' 
 
+:the 
+:th' 
+
+%the 
+%th' 
+
  of 
  o' 
 
@@ -96,6 +102,9 @@ Abort
 n'
 * Don't match case.
 
+#--COLOR-WARNIn'
+#--COLOR-WARNING
+
 [(?<=in)]g(?!":|[a-z0-9]|\})
 n'
 * Don't match case. Don't replace variables.
@@ -116,6 +125,9 @@ booty
  treasure
  booty
 * Not plural, not when referring to treasure chest/treasure map.
+
+Treasure...
+Booty...
 
 Are 
 Be 
@@ -314,20 +326,19 @@ holystone"
 * Not always. Usually starting with Would/Do/Be.
 ```
 
-Use textdiff to get unchanged lines to remove from the final .json file. [Diff Checker](https://www.diffchecker.com/) can be used. Use the following JavaScript to get the unchanged lines:
+Use textdiff to get unchanged lines to remove from the final .json file. [Diff Checker](https://www.prepostseo.com/diff-checker) can be used. Use the following JavaScript to get the unchanged lines:
 ```
-var rows = document.getElementsByClassName('diff-row');
-for (var i = 0; i < rows.length; i++) {
-	rows[i].children[0].remove();
-	rows[i].children[0].remove();
-	rows[i].children[0].remove();
+var equalRows = document.getElementsByClassName('ChangeEqual');
+for (var i = equalRows.length - 1; i >= 0; i--) {
+	equalRows[i].remove();
 }
-var equalRows = document.getElementsByClassName('diff-row');
-for (var i = 0; i < equalRows.length; i++) {
-	if (!equalRows[i].children[0].classList.contains('diff-line-modified')) {
-		equalRows[i].remove();
-		i--;
-	}
+var leftRows = document.getElementsByClassName('Left');
+for (var i = leftRows.length - 1; i >= 0; i--) {
+	leftRows[i].remove();
+}
+var thRows = document.getElementsByTagName('TH');
+for (var i = thRows.length - 1; i >= 0; i--) {
+	thRows[i].remove();
 }
 ```
 
