@@ -275,10 +275,10 @@ cackle"
 picked up
 looted
 
-Pick-up
+Pick Up
 Loot
 
-pick-up
+pick up
 loot
 
 pick up
