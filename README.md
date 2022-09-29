@@ -105,6 +105,12 @@ n'
 #--COLOR-WARNIn'
 #--COLOR-WARNING
 
+HELP/REST'_SLEEPING
+HELP/RESTING_SLEEPING
+
+"pin'"
+"ping"
+
 [(?<=in)]g(?!":|[a-z0-9]|\})
 n'
 * Don't match case. Don't replace variables.
@@ -189,8 +195,8 @@ come across
 Inventory"(?!:)
 Duffle"
 
-"Inventory\n
-"Duffle\n
+Inventory}
+Duffle}
 
  inventory
  duffle
@@ -212,25 +218,19 @@ aroun'
 
 Left 
 Port 
-
- left 
- port 
-* Not always - just with hands.
+* Not always.
 
 left 
 port 
-* Not always - just with hands.
+* Not always.
 
 Right 
 Starboard 
-
- right 
- starboard 
-* Not always - just with hands.
+* Not always.
 
 right 
 starboard 
-* Not always - just with hands.
+* Not always.
 
 Left"(?!:)
 West"
@@ -281,9 +281,6 @@ Loot
 pick up
 loot
 
-pick up
-loot
-
 good men
 hearties
 
@@ -297,7 +294,7 @@ quicker
 smarter
 
 quick!
-smart!
+smart about it!
 
  stopped
  belayed
@@ -325,24 +322,6 @@ holystone"
 , savvy?"
 * Not always. Usually starting with Would/Do/Be.
 ```
-
-Use textdiff to get unchanged lines to remove from the final .json file. [Diff Checker](https://www.prepostseo.com/diff-checker) can be used. Use the following JavaScript to get the unchanged lines:
-```
-var equalRows = document.getElementsByClassName('ChangeEqual');
-for (var i = equalRows.length - 1; i >= 0; i--) {
-	equalRows[i].remove();
-}
-var leftRows = document.getElementsByClassName('Left');
-for (var i = leftRows.length - 1; i >= 0; i--) {
-	leftRows[i].remove();
-}
-var thRows = document.getElementsByTagName('TH');
-for (var i = thRows.length - 1; i >= 0; i--) {
-	thRows[i].remove();
-}
-```
-
-*Be careful around the formatting of "statusEffect".
 
 ## Cloning:
 ```
