@@ -20,11 +20,20 @@ Yer
 your 
 yer 
 
+you're
+yer
+
+You're
+Yer
+
 You Died
 Ye Be Shark Bait
 
-You died
+You have died
 Ye be shark bait,
+
+have died
+ye be shark bait
 
 You 
 Ye 
@@ -38,11 +47,17 @@ ye,
 you.
 ye.
 
+you",
+ye",
+
 hello there
 ahoy
 
 Hello there
 Ahoy
+
+An Aberrant 
+A Bilge-sucking 
 
 Aberrant 
 Bilge-sucking 
@@ -98,22 +113,32 @@ Abort
  Quit
  Abort
 
+couldn't
+cudn't
+
 [(?<=in)]g(?!":|[a-z0-9]|\}|\))
+n'
+* Don't match case.
+
+[(?<=in)]g(?!":|[a-z0-9]|\})
 n'
 * Don't match case.
 
 #--COLOR-WARNIn'
 #--COLOR-WARNING
 
-HELP/REST'_SLEEPING
+HELP/RESTIn'_SLEEPING
 HELP/RESTING_SLEEPING
 
 "pin'"
 "ping"
 
-[(?<=in)]g(?!":|[a-z0-9]|\})
-n'
-* Don't match case. Don't replace variables.
+Dn'
+Dig
+
+dn'
+dig
+* Not didn't.
 
 Treasure"(?!:)
 Booty"
@@ -126,14 +151,27 @@ booty"
 
 treasure 
 booty 
-* But not when referring to treasure chest/treasure map.
 
  treasure
  booty
-* Not plural, not when referring to treasure chest/treasure map.
+
+booty map
+tresure chest
+
+booty chest
+treasure chest
+
+bootys
+treasures
 
 Treasure...
 Booty...
+
+aren't
+ain't
+
+are not
+ain't
 
 Are 
 Be 
@@ -143,7 +181,21 @@ Be
 
  are
  be
-* Not area/areas.
+
+beas 
+areas 
+
+beas.
+areas.
+
+bea 
+area 
+
+bea.
+area.
+
+bea"
+area"
 
  is 
  be 
@@ -186,11 +238,21 @@ Come across
 
 find 
 come across 
-* Not always, sometimes doesn't make sense.
+
+come across out
+find out
 
  any 
  some godforsaken 
-* Not always, sometimes doesn't make sense (like any o').
+
+some godforsaken o'
+any o'
+
+some godforsaken longer
+any longer
+
+some godforsaken one
+any one
 
 Inventory"(?!:)
 Duffle"
@@ -218,7 +280,6 @@ aroun'
 
 Left 
 Port 
-* Not always.
 
 left 
 port 
@@ -226,10 +287,6 @@ port
 
 Right 
 Starboard 
-* Not always.
-
-right 
-starboard 
 * Not always.
 
 Left"(?!:)
@@ -245,6 +302,15 @@ South"
 Up"(?!:)
 North"
 * Just face/move/selection.
+
+hardtack"(?!:)
+sea biscuit"
+
+ nutrition.
+ nourishment.
+
+malnutrition
+scurvy
 
 eggs
 cackle fruit
@@ -270,7 +336,9 @@ cackle"
 
  ghost
  dredgie
-* Not "ghostly".
+
+dredgiely
+ghastly
 
 picked up
 looted
@@ -317,6 +385,13 @@ holystone"
 
  sandstone
  holystone
+
+sandstone.
+holystone.
+
+?"
+, matey?"
+* Just with NPC dialog.
 
 ?"
 , savvy?"
