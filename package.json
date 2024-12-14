@@ -1,8 +1,0 @@
-{
-    "name": "@wayward/piratelanguage",
-    "version": "1.0.0",
-    "scripts": {
-        "build": "",
-        "watch": ""
-    }
-}

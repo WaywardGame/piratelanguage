@@ -127,7 +127,7 @@ n'
 #--COLOR-WARNIn'
 #--COLOR-WARNING
 
-HELP/RESTIn'_SLEEPING
+HELP/RESTIn'_SLEEPIn'
 HELP/RESTING_SLEEPING
 
 "pin'"
@@ -138,7 +138,7 @@ Dig
 
 dn'
 dig
-* Not didn't.
+* Not didn't, cudn't, wouldn't.
 
 Treasure"(?!:)
 Booty"
@@ -152,17 +152,17 @@ booty"
 treasure 
 booty 
 
+ treasures
+ booty
+
  treasure
  booty
 
 booty map
-tresure chest
+tresure map
 
 booty chest
 treasure chest
-
-bootys
-treasures
 
 Treasure...
 Booty...
@@ -275,9 +275,6 @@ Duffle}
  around
  aroun'
 
-around 
-aroun' 
-
 Left 
 Port 
 
@@ -312,15 +309,15 @@ sea biscuit"
 malnutrition
 scurvy
 
-eggs
-cackle fruit
-* Not spider eggs.
+eggs,
+cackle fruit,
 
 chicken egg"(?!:)
 cackle fruit"
 
  chicken egg
  cackle fruit
+* Not always.
 
  chicken's egg
  cackle's fruit
@@ -395,7 +392,7 @@ holystone.
 
 ?"
 , savvy?"
-* Not always. Usually starting with Would/Do/Be.
+* Not always. Only starting with Would/Do/Be.
 ```
 
 ## Cloning:
